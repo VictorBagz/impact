@@ -1,10 +1,11 @@
 import React from 'react';
+import logoImage from '../src/assets/impact.jpg';
 
 const Logo: React.FC = () => {
   return (
     <div className="relative w-12 h-12 rounded-full mr-4 overflow-hidden shadow-lg">
       <img 
-        src="/impact.jpg" 
+        src={logoImage}
         alt="Impact Nexus Logo" 
         className="w-full h-full object-cover"
       />
