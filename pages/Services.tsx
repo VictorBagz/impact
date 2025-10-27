@@ -18,7 +18,7 @@ const Services: React.FC = () => {
   ];
 
   const tools = [
-    { name: 'ODK', category: 'Data Collection' }, { name: 'Kobo Toolbox', category: 'Data Collection' }, { name: 'SurveyCTO', category: 'Data Collection' }, { name: 'MS Excel', category: 'Analysis' }, { name: 'R', category: 'Analysis' }, { name: 'Power BI', category: 'Visualization' }, { name: 'QGIS', category: 'Spatial Analysis' }
+    { name: 'ODK', category: 'Data Collection' }, { name: 'Kobo Toolbox', category: 'Data Collection' }, { name: 'SurveyCTO', category: 'Data Collection' }, { name: 'MS Excel', category: 'Analysis' }, { name: 'R', category: 'Analysis' }, { name: 'Power BI', category: 'Visualization' }, { name: 'QGIS', category: 'Spatial Analysis' }, { name: 'NVivo', category: 'Analysis' }, { name: 'Atlas.ti', category: 'Analysis' }, { name: 'ActivityInfo', category: 'Data Collection' }
   ];
 
   return (
@@ -66,7 +66,7 @@ const Services: React.FC = () => {
           <p className="mt-4 text-center text-lg text-gray-600 max-w-3xl mx-auto">
             We leverage cutting-edge digital tools for efficient and impactful data solutions.
           </p>
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             {tools.map((tool, index) => (
               <div key={index} className="text-center bg-white p-6 rounded-lg shadow-md border border-gray-200">
                 <h4 className="text-lg font-semibold text-gray-800">{tool.name}</h4>
