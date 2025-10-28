@@ -48,6 +48,27 @@ const Clients: React.FC = () => {
       tools: ["Power BI", "Excel", "Training Manuals", "Monitoring Tools", "Evaluation Frameworks"]
     },
     {
+      title: "Feasibility Study: Assessing Adverse Effects of Teenage Pregnancy and Poverty Among Young Women in Post-War Northern Uganda",
+      client: "Action for Youth Development",
+      duration: "February 2024",
+      location: "Otuke District",
+      description: "Research study examining the interconnected challenges of teenage pregnancy and poverty among young women in post-conflict Northern Uganda.",
+      keyActivities: [
+        "Mixed-methods research design implementation",
+        "Household surveys with 450 young women and families",
+        "In-depth interviews with 30 teenage mothers",
+        "Focus group discussions with community stakeholders",
+        "Historical context analysis of post-war recovery impacts"
+      ],
+      outcomes: [
+        "Evidence-based report on teenage pregnancy-poverty nexus",
+        "Policy recommendations for local government and development partners",
+        "Programmatic interventions designed to address root causes",
+        "Community awareness and engagement strategy developed"
+      ],
+      tools: ["SurveyCTO", "Excel", "SPSS", "STATA", "NVivo", "QGIS"]
+    },
+    {
       title: "Feasibility Study: Empowering Young Women with Integrated SRHR and Livelihoods Services",
       client: "Resilience Uganda",
       duration: "June-July 2025",
@@ -134,7 +155,7 @@ const Clients: React.FC = () => {
           <p className="mt-4 text-center text-lg text-gray-600 max-w-3xl mx-auto">
             Recent success stories showcasing our impact across diverse sectors.
           </p>
-          <div className="mt-12">
+          <div className="mt-12 space-y-8">
             {completedTasks.map((task, index) => (
               <div key={index} className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
                 <div className="flex flex-col space-y-6">
