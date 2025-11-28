@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VERCEL ? '/' : '/newImpact/',
+  base: process.env.VERCEL ? '/' : '/newimpact/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
